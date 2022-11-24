@@ -1,5 +1,5 @@
 {
-  "name": "prac-test-2",
+  "name": "prac-Three",
   "version": "1.0.0",
   "description": "SIT725 Project ",
   "main": "server.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abatool-abatool/Prac-Test-2.git"
+    "url": "git+https://github.com/abatool-abatool/Practical-Three-Oncam.git"
   },
   "keywords": [
     "Express",
@@ -17,9 +17,9 @@
   "author": "Amna",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abatool-abatool/Prac-Test-2/issues"
+    "url": "https://github.com/abatool-abatool/Practical-Three-Oncam/issues"
   },
-  "homepage": "https://github.com/abatool-abatool/Prac-Test-2#readme",
+  "homepage": "https://github.com/abatool-abatool/Practical-Three-Oncam#readme",
   "dependencies": {
     "express": "^4.18.2"
   }
