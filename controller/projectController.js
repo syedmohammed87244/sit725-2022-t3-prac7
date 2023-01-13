@@ -1,19 +1,4 @@
 let projectModel = require("../models/project")
-// let client = require("../dbConnect"); 
-// setTimeout(() => {
-//     projectCollection = client.db().collection("Pets");
-// }, 2000)
-
-
-// //insert project....
-// const insertProjects = (project,callback) => {
-//     projectCollection.insert(project,callback);
-// }
-
-// // get project...
-// const getProjects = (callback) => {
-//     projectCollection.find({}).toArray(callback);
-// }
 
 //create project 
 const createProjects = (req,res) => {

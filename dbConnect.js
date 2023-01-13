@@ -1,7 +1,7 @@
 require('dotenv').config()
 const MongoClient = require('mongodb').MongoClient;
 
-const uri = 'mongodb+srv://abatool:amna@cluster0.xnvxmni.mongodb.net/?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://mohammed:12345@cluster0.ytn1dvx.mongodb.net/?retryWrites=true&w=majority'
 const client = new MongoClient(uri, {useNewUrlParser: true})
 
 client.connect((err,db) => {

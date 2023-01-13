@@ -1,15 +1,15 @@
 // const cardList = [
 //     {
-//         title: "Kitten 2",
-//         image: "images/kitten2.jpg",
-//         link: "About Kitten 2",
-//         desciption: "Demo desciption about kitten 2"
+//         title: "Nissan GTR R35",
+//         image: "images/car2.jpg",
+//         link: "About Nissan GTR R35",
+//         desciption: "Demo desciption about R35"
 //     },
 //     {
-//         title: "Kitten 3",
-//         image: "images/kitten2.jpg",
-//         link: "About Kitten 3",
-//         desciption: "Demo desciption about kitten 3"
+//         title: "Nissan GTR R35 Nissmo",
+//         image: "images/car3.jpg",
+//         link: "About Nissan GTR R35 Nissmo",
+//         desciption: "Demo desciption about R35 Nissmo"
 //     }
 // ]
 
@@ -37,7 +37,7 @@ const submitForm = () => {
     
 }
 
-//ajax function...
+//ajax function
 const addProjectToApp = (project) => {
     $.ajax({
         url: '/api/projects',
@@ -45,7 +45,7 @@ const addProjectToApp = (project) => {
         type: 'POST',
         success: (result) => {
             alert(result.message);
-            location.reload(); // it automatically reloads the page 
+            location.reload();
         }
     })
 }

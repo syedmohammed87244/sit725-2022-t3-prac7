@@ -1,25 +1,25 @@
 {
-  "name": "prac-five",
+  "name": "sit725-2022-t3-prac5",
   "version": "1.0.0",
-  "description": "SIT725 Project ",
+  "description": "SIT725 Practical ",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abatool-abatool/Practical-Five-OC.git"
+    "url": "git+https://github.com/syedmohammed87244/sit725-2022-t3-prac5"
   },
   "keywords": [
     "Express",
     "Node"
   ],
-  "author": "Amna",
+  "author": "mohammed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abatool-abatool/Practical-Five-OC/issues"
+    "url": "https://github.com/syedmohammed87244/sit725-2022-t3-prac5/issues"
   },
-  "homepage": "https://github.com/abatool-abatool/Practical-Five-OC#readme",
+  "homepage": "https://github.com/syedmohammed87244/sit725-2022-t3-prac5#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
